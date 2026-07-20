@@ -1,0 +1,7 @@
+Explicación de la ruta POST /reporte:
+
+1. ¿Qué hace esta ruta?
+Esta ruta recibe datos enviados desde el cliente (como un formulario o aplicación móvil) mediante el método HTTP POST. Utiliza el middleware express.json() para procesar la información recibida en el cuerpo de la petición (req.body) y devuelve una respuesta estructurada en formato JSON confirmando la recepción del mensaje.
+
+2. Utilidad en una aplicación comunitaria:
+En un contexto comunitario, esta ruta puede servir para recibir alertas, denuncias de infraestructura dañada, solicitudes de apoyo o sugerencias de los vecinos. Permite centralizar la información que envían los ciudadanos en tiempo real hacia una base de datos o sistema de gestión, garantizando un registro organizado y auditable de los reportes recibidos.

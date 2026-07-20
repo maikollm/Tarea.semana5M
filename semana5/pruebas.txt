@@ -1,0 +1,10 @@
+Comportamiento de las rutas en el navegador:
+
+1. Ruta raíz (http://localhost:3000):
+Muestra en pantalla el texto estático "Servidor activo". Confirma que el servidor está escuchando peticiones en la ruta principal.
+
+2. Ruta de saludo (http://localhost:3000/saludo):
+Muestra el mensaje "Hola comunidad". Responde con un texto fijo ante una petición GET específica.
+
+3. Ruta dinámica (http://localhost:3000/mensaje/juan):
+Captura el parámetro enviado en la URL (:nombre) y responde dinámicamente personalizando el texto, mostrando "Hola juan". Si se cambia el nombre en la URL, la respuesta se adapta automáticamente.
